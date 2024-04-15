@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" 
+th:replace="base::Layout(~{::section})"><head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<section>
+
+		<div class="container-sm">
+
+			<br>
+			<br>
+			<h1>User Details</h1>
+			<br>
+		
+			
+			<th:block th:if="${session.msg}">
+				<div class="alert alert-success alert-dismissible fade show w-50" role="alert">
+  					<span> [[${session.msg}]] </span>
+  					<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+				</div>
+			</th:block>
+			
+	
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">ID</th>
+						<th scope="col">Name</th>
+						<th scope="col">Email</th>
+						<th scope="col">Role</th>
+						<th scope="col">Delete</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="u:${userList}">
+						<th scope="row" th:text="${u.id}"></th>
+						<td th:text="${u.name}"></td>
+						<td th:text="${u.email}"></td>
+						<td th:text="${u.role}"></td>
+						<td><a class="btn btn-danger" th:href="@{/admin/deleteUser/{id}(id=${u.id})}">Delete <i class="fa-solid fa-trash"></i></a></td>
+
+					</tr>
+
+				</tbody>
+			</table>
+		</div>
+
+	</section>
+
+
+</body>
+</html>
