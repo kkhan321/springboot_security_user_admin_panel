@@ -10,6 +10,8 @@
 <p><b>-Spring Boot: </b>Facilitates rapid development and easy configuration of the backend.</p>
 <p><b>-Spring Security: </b> Implements authentication and authorization functionalities.</p>
 <p><b>-MySQL: </b>Manage user data efficiently with a relational database.</p>
+<p><b>-Thymleaf: </b>Render dynamic server-side HTML templates.</p>
+
 
 
 
