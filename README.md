@@ -13,6 +13,9 @@
 <p><b>-Thymleaf: </b>Render dynamic server-side HTML templates.</p>
 <p><b>-HTML/CSS: </b> Design and style user interface for an intuitive user experience.</p>
 <h3>Usage:</h3>
+<p><b>1) Admin: </b>Log in to the Admin Panel to manage user lists.</p>
+<p><b>2) Users: </b>Register or log in to access the User Panel and update profile/password.</p>
+
 
 
 
