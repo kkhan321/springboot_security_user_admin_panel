@@ -4,6 +4,8 @@
 <h3>Features:</h3>
 <p><b> -Admin Panel: </b> Securely log in to view and manage user lists, including user deletion.</p>
 <p><b> -User Panel: </b>Register, log in, and access user home page to update profile and change password.</p>
+<p><b> -Authentication and Authorization: </b>All pages are authenticated and authorized, ensuring secure access.</p>
+
 
 
 
