@@ -12,6 +12,8 @@
 <p><b>-MySQL: </b>Manage user data efficiently with a relational database.</p>
 <p><b>-Thymleaf: </b>Render dynamic server-side HTML templates.</p>
 <p><b>-HTML/CSS: </b> Design and style user interface for an intuitive user experience.</p>
+<h3>Usage:</h3>
+
 
 
 
